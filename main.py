@@ -1,4 +1,5 @@
 # .\env_ML_WaterQuality\Scripts\activate
+# deactivate
 
 from sklearn import svm
 from sklearn import preprocessing
