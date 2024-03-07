@@ -15,3 +15,7 @@ class DataEmu(object):
         if data in self.emu_dict:
             return self.normalization_data(data)
         return 0.001
+    
+if __name__ == '__main__':
+    data_mat, label_mat = load('')
+    print np.mat(data_mat)
