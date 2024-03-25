@@ -12,4 +12,10 @@ from libsvm.svmutil import *
 import pandas as pd
 import numpy as np
 import numpy.ma as ma
+import matplotlib.pyplot as plt
 
+data = pd.read_csv('./dataset/Data Normalization.V1.csv', delimiter=';', header=0)
+data = data.dropna()
+print(data.shape)
+print(list(data.columns))
+data.head()
